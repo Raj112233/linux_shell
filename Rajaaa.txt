@@ -1,0 +1,5 @@
+hiii\nhooooo
+hiii\nhooooonasjhdjdgfggthddif
+
+[200~echo "hiii\nhooooo" >> Rajaaa.txt
+

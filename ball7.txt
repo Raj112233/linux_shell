@@ -1,0 +1,4 @@
+ ball_link.txt is a file
+######## content of the file #######
+######### total no-of lines ########
+3 ball_link.txt
