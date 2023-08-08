@@ -1,0 +1,813 @@
+    1  ls
+    2  ls-lart
+    3  ls -a
+    4  ls -lart
+    5  touch rajash.txt sample.txt devops2.txt
+    6  pwd
+    7  ls
+    8  cd desktop
+    9  pwd
+   10  ls
+   11  rm devops2.txt
+   12  ls
+   13  rm devops2.txt sample.txt
+   14  cd ec2-user/
+   15  cd ec2-user
+   16  rm devops2.txt
+   17  mkdr linux_commands
+   18  mkdir linux_commands
+   19  ls
+   20  rm rajash.txt
+   21  ls
+   22  pwd
+   23  cd linux_commands/
+   24  pwd
+   25  touch ra.txt
+   26  ls
+   27  cd..
+   28  cd ..
+   29  pwd
+   30  cd linux_commands/
+   31  pwd
+   32  mkdir dire1
+   33  cd dire1
+   34  pwd
+   35  cd ..
+   36  pwd
+   37  cd dire1
+   38  pwd
+   39  cd ../..
+   40  pwd
+   41  cd -
+   42  cla5
+   43  clear
+   44  pwd
+   45  makdir -p /home/ec2-user/linux_commands/dire1/commands/course/classes
+   46  mkdir -p /home/ec2-user/linux_commands/dire1/commands/courses/linux_fundamentals
+   47  pwd
+   48  ls
+   49  cd courses
+   50  cd /home/ec2-user/linux_commands/dire1/commands/courses/linux_fundamentals/
+   51  pwd
+   52  cd ..
+   53  pwd
+   54  cd ../..
+   55  pwd
+   56  cd -
+   57  cd linux_fundamentals
+   58  cd/home/ec2-user/linux_commands/dire1/commands/courses/linux_fundamentals
+   59  cd -
+   60  ls
+   61  ls-l
+   62  cd ../..
+   63  pwd
+   64  ls
+   65  touch abcd.txt
+   66  ls
+   67  ls-l
+   68  pwd
+   69  ls
+   70  ls -l
+   71  ls -lt
+   72  ls -lrt
+   73  ls -a
+   74  man ls -a
+   75  date
+   76  ls
+   77  echo "linux" >> linux_commands
+   78  ps - ef
+   79  ps -ef
+   80  sleep 100
+   81  ps -ef
+   82  p -ef | grep sleep
+   83  touch Rajample.txt
+   84  ps -ef
+   85  ps -ef | grep touch
+   86  pwd
+   87  touch
+   88  sleep 100
+   89  ps -ef | grep sleep
+   90  kill -9 2448
+   91  ps -ef | grep 2448
+   92  sleep 100&
+   93  ps -ef|grep sleep
+   94  kill -9 2627
+   95  ps -ef|cat -n
+   96  top
+   97  top m
+   98  top 
+   99  top -u ec2-uer
+  100  top -u username
+  101  top -u
+  102  top -u ec2-user
+  103  clear
+  104  top 
+  105  top
+  106  clear
+  107  which stress
+  108  uname
+  109  uname -v
+  110  unmane -a
+  111  uname -a
+  112  uname -r
+  113  top -u ec2-user
+  114  ps -ef
+  115  top
+  116  unmae
+  117  uname
+  118  uname -a
+  119  uname -v
+  120  uname -r
+  121  top -u ec2-user
+  122  which uname
+  123  which stress
+  124  sleep 100&
+  125  ps -ef|grep sleep
+  126  killall -9 3945
+  127  kill -9 3945
+  128  killall -9 2167
+  129  ps -ef
+  130  ps aux
+  131  clear
+  132  ps aux
+  133  uname
+  134  unmae -v
+  135  uname -v
+  136  uname -r
+  137  uname -a
+  138  ps aux|grep sleep
+  139  which systemctl
+  140  systemctl ssh restsrt
+  141  sudo yem install locate
+  142  sudo yum install locate
+  143  which locate
+  144  which stress
+  145  sudo yum install stress
+  146  stress --help
+  147  ps aux
+  148  p -ef
+  149  ps -ef
+  150  top
+  151  top -n 10
+  152  top -u ec2-user
+  153  free -h
+  154  du -h
+  155  df
+  156  df --help
+  157  du -S
+  158  DU --HELP
+  159  du --help
+  160  clear
+  161  which find
+  162  locate Rajample.txt
+  163  pwd
+  164  find . -iname rajample.txt
+  165  find . -name '*.txt'
+  166  find /home/ec2-user -iname rajample.txt
+  167  pwd
+  168  find . -mtime+5
+  169  vim Rajample.txt
+  170  find /home/ec2-user -type f -mtime +10
+  171  vim Rajample.txt
+  172  pwd
+  173  find . -type f -mmin -5
+  174  find . -type d -mtime +5
+  175  find . -type f -mtime +5
+  176  find . -iname rajample.txt | rm
+  177  find . -type f -mtime +10
+  178  find . -type f -mmin +10
+  179  find . -type f -mmin -10
+  180  find . iname rajample.txt
+  181  find . -iname '*.txt'
+  182  find . -type f -perm 0777
+  183  pwd
+  184  find . -type f -perm 0777
+  185  find . -type f -perm 400
+  186  ls -lt
+  187  grep ^-
+  188  grep -l linux*
+  189  clear
+  190  grep -l -R Linux*
+  191  grep -l -R *R
+  192  grep R
+  193  CLEAR
+  194  clear
+  195  ls -lt
+  196  find /home/ec2-user -type f -perm 0644
+  197  find . -iname '*.txt'
+  198  find . -type f -empty
+  199  find . -type f -not -empty
+  200  tree
+  201  sudo yum install tree
+  202  tree
+  203  find . -type f -empty
+  204  pwd
+  205  find . -maxdepth -file f
+  206  find . -maxdepth -type f
+  207  find . -maxdepth 1 -type f
+  208  find . -maxdepth 1 -type *
+  209  type --help
+  210  find . -maxdepth 1 -type a
+  211  find . -maxdepth 1 -type -a
+  212  find . -maxdepth 2 -type f
+  213  tree
+  214  find . -type f -size +1
+  215  find . -type f -size +1mb
+  216  find . -type f -size +1MB
+  217  find . -type f -empty
+  218  xargs --help
+  219  xargs rm --help
+  220  pwd
+  221  ls
+  222  systemctl stop servicename
+  223  ps -ef
+  224  ls
+  225  exit
+  226  ls
+  227  cd
+  228  ls 
+  229  touch abc.txt
+  230  touch ball{1..10}.txt
+  231  ls
+  232  ls -lrt
+  233  ls *?a* *?b*
+  234  pwd
+  235  history
+  236  touch Rajaaa.txt
+  237  ls
+  238  ls -lrt
+  239  mkdir abcd
+  240  ls -lrt
+  241  mkdir xyz
+  242  ls -lrt
+  243  cat -n Rajample.txt
+  244  find -type f -empty
+  245  find -type f -size 10
+  246  echo "hiii\nhooooo" >> Rajaaa.txt
+  247  cat -n Rajaaa.txt
+  248  echo "hiii\nhooooonasjhdjdgfggthddif" >> Rajaaa.txt
+  249  Rajaaa.txt 
+  250  vi Rajaaa.txt
+  251  df -h Rajaaa.txt
+  252  du -sh Rajaaa.txt
+  253  find -type f -size +3
+  254  find -type f -size +3k
+  255  find . -tyep f -size +3k
+  256  find . -type f -size +3k
+  257  find . -type f -size +3kb
+  258  find /home/ec2-uer -type f -size +3kb
+  259  find . -type f -size +3c
+  260  sud -i
+  261  sudo -i
+  262  pwd
+  263  sudo root
+  264  su root
+  265  ping 3.111.58.97
+  266  bg
+  267  job
+  268  jobs
+  269  fg
+  270  cd -
+  271  cd.
+  272  cd .
+  273  ssh 
+  274  -bash: cd.: command not found
+  275  [ec2-user@ip-172-31-36-29 ~]$ cd .
+  276  [ec2-user@ip-172-31-36-29 ~]$ ssh
+  277  exit
+  278  ping 3.111.58.97
+  279  clear
+  280  telnet 3.111.58.97 22
+  281  sudo yum install telnet
+  282  telnet 3.111.58.97 22
+  283  who
+  284  whoami
+  285  ssh 3.111.58.97
+  286  ls -i*
+  287  ls
+  288  ls -i *
+  289  ln -i
+  290  ssh-keygen
+  291  pwd
+  292  ls -lart
+  293  cd .ssh/
+  294  ll
+  295  cat id_rsa.pub
+  296  ssh 3.111.58.97 
+  297  ssh-keygen
+  298  exit
+  299  cd .ssh/
+  300  ll
+  301  vi ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDNQlp9xFYqQNoO2MFotaC0imWRDvi+aiNgtOh+Gf4O9o8Jj8RQStyW3HvDDkQ4uhIVxqLThgyf9++ReydyBzYtXRJ7nOXRmzTbkv0XqS6Z8fKiZJRHU06SwiZf+YEiZ7y/8T1J/KZVC9ew09K9jFkh122x1+2JQnn5aJ3EM0jor4hmGWZLDpcZBbv6R+7hkEa5b+3p1AAwCE+gmwPfPtjz2loszG72fUK38zKNDyFYRLVpYxwnRSihHa4nk3etX4mIJK7UHYVkMV0e11XMUFVEofJNIJCpDcmLaIXii+4IvjkNSpbWPymJLKp4Fu8s3PS+ErxcobSJbF7x5hMWD37XpmJlv9SLDRk/6unAN2C3zcfnZAx8EJ4+2qMjYGVtcUX5vWoA8caGWkSYsbdC99cfTSVu8Z2hUdPj6+HOKwCuZ8b8iX3k62lVENIl3Q5nv/tPdWGAYCCCBz5FlyNIiXkCnIAicPEZZJephMHzYCISbt6vo8BgwfdAvHoCoRu6IOE= ec2-user@ip-172-31-10-230.ap-south-1.compute.internal
+  302  clear
+  303  ll 
+  304  vi authorized_keys 
+  305  exit
+  306  cd .ssh/
+  307  ll
+  308  vi authorized_keys
+  309  cd .ssh/
+  310  ll
+  311  cat id_rsa_pub
+  312  cat id_rsa.pub
+  313  ssh-keygen
+  314  cd .ssh/
+  315  ll
+  316  ssh-copy-id ec2-user@52.66.244.76
+  317  ssh 52.66.244.76 
+  318  pwd
+  319  ls -lrt
+  320  cd linux_commands
+  321  pwd
+  322  ll
+  323  cd .ssh/
+  324  ll
+  325  vi authorized_keys
+  326  ssh-copy-id ec2-user@192.168.43.73
+  327  ssh-keygen
+  328  ssh-copy-id ec2-user@192.168.43.73
+  329  exit
+  330  cd -
+  331  exit
+  332  ll
+  333  sftp 13.233.244.181
+  334  ls -lrt
+  335  pw
+  336  pwd
+  337  touch server_b.txt
+  338  ls
+  339  pwd
+  340  ll
+  341  ls -lrt
+  342  find . -type f -mtime -5
+  343  find . -type f -mmin -5
+  344  ls -lrt
+  345  cd abc.txt
+  346  cd /home/ec2-user
+  347  ll
+  348  pwd
+  349  ll
+  350  nmap -A 65.2.121.49 
+  351  netstat -tunlp
+  352  lsblk --help
+  353  lsblk
+  354  vi authorized_key
+  355  cd .ssh/
+  356  ll
+  357  vi authorized_keys 
+  358  pwd
+  359  sftp 65.2.121.49 
+  360  netstat -tulp
+  361  nmap -A 65.2.121.49 
+  362  sudo yum install nmap
+  363  nmap -A 65.2.121.49 
+  364  vi authorized_keys
+  365  ssh-keygen
+  366  ll
+  367  rsync ball9.txt ec2-user@65.2.121.49:/home/ec2-user/
+  368  clear
+  369  cat /etc/passwd
+  370  sudo -i
+  371  cd -
+  372  sudo -i
+  373  cd /home/ec2-user
+  374  sudo -i
+  375  ssh-copy-id ec2-user@65.2.121.49
+  376  cd .ssh/
+  377  ll
+  378  ssh-copy-id ec2-user@65.2.121.49
+  379  ssh 65.2.121.49
+  380  cd -
+  381  ll
+  382  scp Rajample.txt ec2-user@65.2.121.49:/home/ec2-user/
+  383  cat Rajample.txt
+  384  pwd
+  385  man nlookup
+  386  man nslookup
+  387  ipconfig
+  388  sudo yum install ipconfig
+  389  ipconfig --help
+  390  sudo yum install ipconfig -y
+  391  shutdown +5
+  392  shutdown --help
+  393  man shutdown
+  394  shutdown +5
+  395  shutdown -now
+  396  shutdown now
+  397  sudo shutdown +5
+  398  pwd
+  399  df -h
+  400  df -h .
+  401  awk -F " " '{print$(NF-1)}
+  402  clear
+  403  clear
+  404  awk -F " " '{print$(NF-1)}
+  405  clear
+  406  df -h .|awk -F " " '{print$(NF-1)}'
+  407  df -h .|awk -F " " '{print$(NF-1)}'|tail -1
+  408  df -h .|awk -F " " '{print$(NF-1)}'|tail -1|sed 's/%//g'
+  409  vi disk_space.sh
+  410  which mail
+  411  mail
+  412  sudo yum install mail -y
+  413  sudo yum install mailx
+  414  which mail
+  415  mail
+  416  ./disk_space.sh
+  417  chmod u+x disk_space.sh
+  418  ./disk_space.sh
+  419  mutt
+  420  mutt -a
+  421  sudo yum install mailutils
+  422  sudo -i
+  423  sudo yum install postfix
+  424  rpm -qa
+  425  rpm -qa | grep postfix
+  426  cd /etc/postfix/
+  427  ll
+  428  cp main.cf main.cf_backup
+  429  sudo cp main.cf main.cf_backup
+  430  ll
+  431  vi main.cf
+  432  hostname
+  433  host
+  434  vi main.cf
+  435  hostname -f
+  436  sudo vi main.cf
+  437  hostname -f
+  438  sudo vi main.cf
+  439  cat /proc/cpuinfo
+  440  sudo vi main.cf
+  441  pwd
+  442  mkdir sasl
+  443  sudo mkdir asl
+  444  sudo rm asl
+  445  sudo rmdir asl
+  446  ll
+  447  sudo mkdir sasl
+  448  touch sasl_passwd
+  449  sudo touch sasl_passwd
+  450  \\
+  451  ll
+  452  cd sasl_passwd
+  453  cd sasl
+  454  pwd
+  455  ll
+  456  rm sasl_passwd
+  457  cd -
+  458  ll
+  459  rm sasl_passwd
+  460  sudo rm sasl_passwd
+  461  ll
+  462  cd sasl
+  463  pwd
+  464  sudo touch sasl_passwd
+  465  pwd
+  466  ll
+  467  sudo vi sasl_passwd
+  468  postmap sasl_passwd
+  469  ll
+  470  ls
+  471  ls -lrt
+  472  ls -ltr
+  473  ls -lart
+  474  sudo postmap sasl_passwd
+  475  postmap
+  476  postmap --help
+  477  which postmap
+  478  sudo postmap sasl_passwd
+  479  ls -ltr
+  480  pwd
+  481  ll
+  482  postmap /etc/postfix/sasl/sasl_passwd
+  483  ll
+  484  ls -ltr
+  485  myhostname
+  486  hostname
+  487  sudo postmap sasl_passwd
+  488  systemctl start postfix.service
+  489  sudo systemctl start postfix.service
+  490  sudo systemct status postfix.service
+  491  sudo systemctl status postfix.service
+  492  sudo systemctl start postfix
+  493  sudo systemctl restart postfix
+  494  sudo systemctl restart postfix.service
+  495  sudo vi /etc/postfix/main.cf
+  496  cat /etc/postfix/main.cf | grep inet_interface
+  497  sudo systemctl start postsfix.service
+  498  cd -
+  499  cd /sasl
+  500  cd sasl
+  501  cd /etc/postfix
+  502  ll
+  503  cd sasl
+  504  ll
+  505  postmap sasl_passwd
+  506  sudo vi main.cf
+  507  ll
+  508  sudo systemctl start postsfix.service
+  509  cd -
+  510  ll
+  511  sudo vi main.cf
+  512  cd sasl
+  513  ll
+  514  postmap sasl_passwd
+  515  sudo systemctl start postfix.service
+  516  cd -
+  517  sudo vi main.cf
+  518  sudo systemctl status postfix.service
+  519  sudo systemctl enable postfix.service
+  520  sudo systemctl start postfix.service
+  521  sudo systemctl status postfix.service
+  522  /usr/lib/systemd/system/postfix.service;
+  523  cd /usr/lib/systemd/system/postfix.service;
+  524  sudo cd /usr/lib/systemd/system/postfix.service;
+  525  ll
+  526  sudo cd /usr/lib/systemd/system/
+  527  ll
+  528  cd /
+  529  cd ../
+  530  pwd
+  531  cd /home/ec2-user
+  532  ./disk_space.h
+  533  ./disk_space.sh
+  534  vi disk_space.sh 
+  535  ./disk_space.sh
+  536  sh disk_space.sh
+  537  pwd
+  538  ll
+  539  crontab -e
+  540  sudo yum install crontab
+  541  mail -s "subject" rajashekarrgnk@gmail.com
+  542  sendmail
+  543  rpm -qa|grep mail
+  544  which procmail
+  545  which sendmail
+  546  sendmail-cf
+  547  vi /etc/postfix/main.cf
+  548  sudo vi /etc/postfix/main.cf
+  549  mail -s "subject" rajashekarrgnk@gmail.com
+  550  hello
+  551  EOT
+  552  mail -s "subject" rajashekarrgnk@gmail.com
+  553  sudo vi /etc/postfix/main.cf
+  554  ll
+  555  sh disk_space.sh
+  556  cron
+  557  sudo yum intsall cron
+  558  crontab
+  559  sudo yum intsall crontab
+  560  which cron
+  561  which crontab
+  562  sudo yum install cronie -y
+  563  which crontab
+  564  sudo systemctl status cronie.service
+  565  sudo systemctl enable cronie.service
+  566  sudo systemctl enable crond.service
+  567  sudo systemctl start crond.service
+  568  sudo systemctl sttus crond.service
+  569  sudo systemctl status crond | grep Active
+  570  crontab -l
+  571  date
+  572  crontab -e
+  573  crontab -l
+  574  date
+  575  crontab -l
+  576  cron -e
+  577  crontab -e
+  578  date
+  579  ls -lrt
+  580  date
+  581  crontab -l
+  582  date
+  583  ls -lrt
+  584  crontab -e
+  585  sudo vi disk_space.sh
+  586  crontab -l
+  587  crontab -e
+  588  date
+  589  crontab -e
+  590  sudo crontab -l
+  591  crontab -l
+  592  date
+  593  which crontab
+  594  /etc/cronie
+  595  cd /etc/crontab
+  596  cd /usr/bin/crontab
+  597  cd /usr/bin/
+  598  ll
+  599  ll | grep cron
+  600  cd -
+  601  sudo vi disk_space.sh
+  602  sudo crontab -e
+  603  pwd
+  604  sudo crontab -e
+  605  date
+  606  sudo crontab -e
+  607  date
+  608  sudo crontab -l
+  609  date
+  610  ll
+  611  vi new_script.sh
+  612  ./new_script.sh
+  613  sh new_script.sh 2 5 6
+  614  sh new_script.sh 2 5 
+  615  crontab -l
+  616  ll
+  617  grep -l linux
+  618  grep -l -R Linux*
+  619  grep -l Linux*
+  620  ls
+  621  grep -l -i linux*
+  622  clear
+  623  ls | grep -l Linux
+  624  pwd
+  625  ls -lrt | grep -l -R Linux
+  626  ls -lrt | grep -l Linux*
+  627  ls -lrt
+  628  ls -lrt | egrep -l Linux*
+  629  ls -lrt | egrep -l Linux
+  630  grep -l
+  631  grep -l Linux /home/ec2-user
+  632  grep -L Linux*
+  633  grep -l "Linux*"
+  634  grep -l -i Linux*
+  635  ls | grep *.txt
+  636  ls-lrt | grep *".txt"
+  637  ls -lrt
+  638  ls -lrt|grep *.txt
+  639  ls -lrt|grep .txt*
+  640  ls -lrt|grep *.t
+  641  ls -lrt|grep *.t*
+  642  ls -lrt|grep ".??t"
+  643  ls -lrt|grep .??t
+  644  ls -lrt|grep .??t*
+  645  ls *.txt
+  646  ls *??t
+  647  ls *??j
+  648  ls *??j*
+  649  grep -l Linux*
+  650  vi ball3.txt
+  651  vi ball15.txt ball16.txt
+  652  cat ball16.txt
+  653  vi ball16.txt
+  654  ls | grep -l hello
+  655  ls | grep -l "hello"
+  656  ls | grep -l -R hello*
+  657  ls | grep -l -R Linux*
+  658  ls | grep -l -R Unix*
+  659  cat Rajample.txt 
+  660  ll
+  661  cd linux_commands/
+  662  ll
+  663  grep -l Linux*
+  664  ls | grep -l Linux*
+  665  cat Rajashekar333.txt
+  666  vi Rajashekar333.txt 
+  667  cd -
+  668  ls | grep -l -R Linux*
+  669  ls | grep -l -R hello*
+  670  ls /home/ec2-user/linux_commands
+  671  vi ra.txt
+  672  ls /home/ec2-user/linux_commands|grep -l Linux*
+  673  ls /home/ec2-user/linux_commands|grep -l -R Linux*
+  674  cd -
+  675  cd ../
+  676  pwd
+  677  ll
+  678  vi vi Rajample.txt 
+  679  ls|grep -l -R Linux*
+  680  vi vi
+  681  vi Rajample.txt
+  682  ls|grep -l -R Linux*
+  683  ls|grep -l Linux*
+  684  grep -l Linux
+  685  vi pattern_script.sh
+  686  sh pattern_script.sh
+  687  vi pattern_script.sh
+  688  sh pattern_script.sh
+  689  vi pattern_script.sh
+  690  sh pattern_script.sh
+  691  pwd
+  692  ls /home/ec2-user
+  693  ls /home/ec2-user | grep -l -R hello*
+  694  ls /home/ec2-user | grep -l -R hello
+  695  cat .bash_history
+  696  ls /home/ec2-user | grep -l hello
+  697  pwd
+  698  ll
+  699  grep -l hello
+  700  ls /home/ec2-user | grep -l -R hello
+  701  ls -lrt | grep -l -R hello
+  702  sh pattern_script.sh
+  703  vi pattern_script.sh
+  704  ls /home/ec2-user | grep -l -R hello | wc -l
+  705  vi pattern_script.sh
+  706  sh pattern_script.sh
+  707  vi pattern_script.sh
+  708  sh pattern_script.sh
+  709  vi pattern_script.sh
+  710  sh pattern_script.sh
+  711  vi pattern_script.sh
+  712  sh pattern_script.sh
+  713  vi pattern_script.sh
+  714  sh pattern_script.sh
+  715  vi pattern_script.sh
+  716  sh pattern_script.sh
+  717  ll
+  718  vi pattern_script.sh
+  719  sh pattern_script.sh /home/ec2-user Linux
+  720  grep -l -R Linux
+  721  pwd
+  722  vi pattern_script.sh
+  723  sh pattern_script.sh /home/ec2-user Linux
+  724  vi pattern_script.sh
+  725  sh pattern_script.sh /home/ec2-user Linux
+  726  sh pattern_script.sh /home/ec2-user Unix
+  727  lt | grep -l -R Linux
+  728  ls | grep -l -R Linux
+  729  ls | grep -l Linux
+  730  ls -lt | grep -l Linux
+  731  grep -l Linux
+  732  ls -lt | grep -l -R Linux | grep '[^.]!'
+  733  ls -lt | grep -l -R Linux | grep '!^.'
+  734  ls -lt | grep -l -R Linux | grep '^.!'
+  735  sh pattern_script.sh /home/ec2-user Unix
+  736  ls -lt | grep -l -R Linux | tail -n+2
+  737  vi ra.txt
+  738  sh pattern_script.sh /home/ec2-user tagshtf
+  739  vi file_dire_link.sh
+  740  ls -lt
+  741  pwd
+  742  ll
+  743  grep -l -R link
+  744  cd file_dire_link.sh
+  745  cd linux_commands/
+  746  ll
+  747  cd abcd/
+  748  cd -
+  749  cd abcd
+  750  ll
+  751  cd -
+  752  cd xyz
+  753  ll
+  754  grep -l -R link*
+  755  grep -l -R link *
+  756  pwd
+  757  cd -
+  758  grep -l -R link *
+  759  ln -s /home/ec2-user/ball7.txt ball_link.txt
+  760  ls -lrt
+  761  sh file_dire_link.sh Rajaaa.txt
+  762  cat -n Rajaaa.txt
+  763  vi file_dire_link.sh
+  764  sh file_dire_link.sh ball_link.txt
+  765  sh file_dire_link.sh /home/ec2-user/ball7.txt
+  766  vi file_dire_link.sh
+  767  sh file_dire_link.sh linux_commands/
+  768  vi file_dire_link.sh
+  769  sh file_dire_link.sh linux_commands/
+  770  vi file_dire_link.sh
+  771  sh file_dire_link.sh linux_commands/
+  772  sh file_dire_link.sh ball5.txt
+  773  vi ball5.txt
+  774  sh file_dire_link.sh Rajample.txt
+  775  sh file_dire_link.sh ball_link.txt
+  776  test -L ball_link.txt
+  777  ln -i ball_link.txt
+  778  ls -i ball_link.txt
+  779  ln -li ball_link.txt
+  780  ls -li ball_link.txt
+  781  ll
+  782  sh file_dire_link.sh ball_link.txt -> /home/ec2-user/ball7.txt
+  783  sh file_dire_link.sh /home/ec2-user/ball7.txt
+  784  cat -n ball_link.txt
+  785  cat -n ball7.txt
+  786  vi file_dire_link.sh 
+  787  sh file_dire_link.sh ball_link.txt
+  788  vi file_dire_link.sh 
+  789  sh file_dire_link.sh ball_link.txt
+  790  sh file_dire_link.sh /home/ec2-user/ball7.txt
+  791  sh file_dire_link.sh linux_
+  792  vi file_dire_link.sh 
+  793  sh file_dire_link.sh ball_link.txt
+  794  ls -lt|awk -F" " '{print $1}'
+  795  ls -lt|awk -F" " '{print $1}'|grep '^l'
+  796  ln /home/ec2-user/ball1.txt
+  797  ln /home/ec2-user/ball1.txt ball_hard_link.txt
+  798  ll
+  799  cat ball1.txt
+  800  vi ball1.txt
+  801  cat ball_hard_link.txt
+  802  rm ball1.txt
+  803  ll
+  804  sudo systemctl status postfix
+  805  uptime -h
+  806  uptime -s
+  807  uptime -p
+  808  git remote add origin https://github.com/Raj112233/linux_shell.git
+  809  git branch -M master
+  810  git push -u origin main
+  811  git push -u origin master
+  812  history
+  813  history > history_commands.txt
