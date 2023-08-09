@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#shell script to check disk space
 space=`df -h .|awk -F " " '{print$(NF-1)}'|tail -1|sed 's/%//g'`
 if [ $space -gt 90 ];
 then 
