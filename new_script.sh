@@ -1,4 +1,5 @@
 #!/bin/bash
+#this script is to sum the given two numbers
 
 num1=$1
 num2=$2
