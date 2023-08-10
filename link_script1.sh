@@ -1,4 +1,7 @@
 #!/bin/bash
+#this script is to check wether passed input file a link
+#author : Rajashekar
+#date : Thu Aug 10 10:02:53 UTC 2023
 name=$1
 if [ -r $name ];
 then
