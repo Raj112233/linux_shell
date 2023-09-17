@@ -1,0 +1,16 @@
+pipeline
+{
+    agent any 
+    parameters
+    {
+        string(name: 'SC_par', defaultValue: '', description: 'parameters to the script')
+    }
+    stages
+    {
+        stage('download script')
+        {
+            steps 
+            {
+                git 'https://github.com/keshavr21/shellscripts.git'
+            }
+        }
