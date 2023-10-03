@@ -9,3 +9,4 @@ node
         sh '/opt/maven/bin/mvn clean package'
     }
 }
+
