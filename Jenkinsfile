@@ -1,6 +1,6 @@
-Node
+node
 {
-    Stage ('continuous download')
+    stage ('continuous download')
     {
         git 'https://github.com/keshavr21/maven_test.git'
     }
