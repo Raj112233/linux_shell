@@ -1,1 +1,3 @@
 Linux hello
+
+suru wants to learn linux
